@@ -70,6 +70,7 @@ const AddManagerForm = () => {
             value={formData.firstName}
             onChange={handleChange}
             placeholder="Enter name"
+            autoComplete="off"
             className="bg-transparent border border-[#92A5B5] p-2 rounded-[8px]"
           />
         </div>
@@ -81,6 +82,7 @@ const AddManagerForm = () => {
             onChange={handleChange}
             type="text"
             placeholder="Enter name"
+            autoComplete="off"
             className="bg-transparent border border-[#92A5B5] p-2 rounded-[8px]"
           />
         </div>
@@ -92,6 +94,7 @@ const AddManagerForm = () => {
             onChange={handleChange}
             type="email"
             placeholder="Enter email"
+            autoComplete="off"
             className="bg-transparent border border-[#92A5B5] p-2 rounded-[8px]"
           />
         </div>
@@ -115,6 +118,7 @@ const AddManagerForm = () => {
             value={formData.password}
             onChange={handleChange}
             placeholder="Enter password"
+            autoComplete="off"
             className="bg-transparent border border-[#92A5B5] p-2 rounded-[8px]"
           />
         </div>
@@ -126,6 +130,7 @@ const AddManagerForm = () => {
             value={formData.confirmPassword}
             onChange={handleChange}
             placeholder="Enter password"
+            autoComplete="off"
             className="bg-transparent border border-[#92A5B5] p-2 rounded-[8px]"
           />
         </div>

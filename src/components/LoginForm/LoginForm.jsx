@@ -37,18 +37,22 @@ const LoginForm = () => {
   return (
     <form className="space-y-5" onSubmit={handleSubmit}>
       <div className="grid space-y-1">
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email" className="text-black">
+          Email
+        </label>
         <input
           id="email"
           value={formData.email}
           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
           type="text"
           placeholder="Enter your email"
-          className="placeholder:text-[#637D92] text-[16px] font-[400] border border-[#7991A4] rounded-[8px] p-3 py-2 outline-none"
+          className="text-[16px] font-[400] border border-[#7991A4] text-black rounded-[8px] p-3 py-2 outline-none"
         />
       </div>
       <div className="grid space-y-1">
-        <label htmlFor="password">Password</label>
+        <label htmlFor="password" className="text-black">
+          Password
+        </label>
         <input
           id="password"
           value={formData.password}
@@ -57,7 +61,7 @@ const LoginForm = () => {
           }
           type="password"
           placeholder="Enter your password"
-          className="placeholder:text-[#637D92] text-[16px] font-[400] border border-[#7991A4] rounded-[8px] p-3 py-2 outline-none"
+          className="text-[16px] font-[400] border text-black border-[#7991A4] rounded-[8px] p-3 py-2 outline-none"
         />
       </div>
       <div className="flex gap-2 items-center">

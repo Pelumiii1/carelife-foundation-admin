@@ -7,7 +7,7 @@ import LoginForm from "../LoginForm/LoginForm";
 const Login = () => {
   return (
     <div className="flex">
-      <div className="w-1/2 p-[2rem] flex flex-col justify-between">
+      <div className="w-1/2 bg-white p-[2rem] flex flex-col justify-between">
         <div>
           <Image
             src={carelife_logo}
